@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daadir.org</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <script src="https://kit.fontawesome.com/e9c9a0fb03.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+
+    <!-- The header and navigations -->
+  <header class="sticky-header">
+    <div class="logo">
+        <a href="index.html">
+          <h1>Daadir.org</h1>
+        </a>
+      </div>
+    
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our-Team</a></li>
+        <li><a href="#">Aboutus</a></li>
+        <li><a href="#">Contact</a></li>
+        <li id="donation"><a href="donation.html">Donate</a></li>
+        <li id="dark-mode-toggle" onclick="toggleDarkMode()">
+            <i id="dark-mode-icon" class="fa-solid fa-sun" style=" cursor: pointer;
+            font-size: 1.7rem; color: #e1ff00;"></i>
+          </li>
+          <button id="scrollToBottomButton" onclick="scrollToBottom()">&#8681;</button>
+      </ul>
+      
+    </nav>
+  </header>
+
+
+  <!-- main start -->
+  
+  <main>
+
+ <!-- First section The slide preview section -->
+
+ <section>
+ <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="pics/prev1.jpg" alt="Image 1">
+        <div class="image-comment">
+          <div class="comment-content">
+            <h2>We give 20 Jobs every month</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iusto libero reprehenderit, aperiam totam soluta minus, eum porro voluptatibus, possimus nesciunt magnam?</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="pics/prev2.jpg" alt="Image 2">
+        <div class="image-comment">
+          <div class="comment-content">
+            <h2>We do a lot of work for the socity</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iusto libero reprehenderit, aperiam totam soluta minus, eum porro voluptatibus, possimus nesciunt magnam?</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="pics/prev3.jpg" alt="Image 3">
+        <div class="image-comment">
+          <div class="comment-content">
+            <h2>We use technology for the work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iusto libero reprehenderit, aperiam totam soluta minus, eum porro voluptatibus, possimus nesciunt magnam?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <div class="welcome">
+    <h2>Welcome to our website we hope you enjoy the experience scroll down for more info 
+        <i class="fa-solid fa-hand-point-down"></i> </h2>
+    
+  </div>
+</section>
+
+<!-- second section the services section -->
+    
+    <section id="section2" class="card-section">
+      <div class="title">
+        <h2>Our-Team</h2>
+      </div>
+    <div class="slide-container">
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="image-box">
+            <img src="pics/jops/designer.jpg">
+          </div>
+          <div class="profile-details">
+            <img src="pics/profiles/profile1.jpg">
+            <div class="name-jop">
+              <h3 class="name">Sara Ahmed</h3>
+              <h4 class="jop">Designer</h4>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image-box">
+            <img src="pics/jops/editor.jpg">
+          </div>
+          <div class="profile-details">
+            <img src="pics/profiles/profile2.jpeg">
+            <div class="name-jop">
+              <h3 class="name">Yasir cali</h3>
+              <h4 class="jop">Editor</h4>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image-box">
+            <img src="pics/jops/photographer.jpg">
+          </div>
+          <div class="profile-details">
+            <img src="pics/profiles/profile3.jpeg">
+            <div class="name-jop">
+              <h3 class="name">koni khalil</h3>
+              <h4 class="jop">Photographer</h4>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image-box">
+            <img src="pics/jops/coder.jpg">
+          </div>
+          <div class="profile-details">
+            <img src="pics/profiles/profile4.jpg">
+            <div class="name-jop">
+              <h3 class="name">Sara Ahmed</h3>
+              <h4 class="jop">Coder</h4>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+      
+      
+    </section>
+
+<!-- third section the jops that we done -->
+
+    <section class="logos-section">
+      <div class="title-logos">
+        <h2>Companies we associate with</h2>
+      </div>
+        <div class="logos">
+          <div class="logos-slide">
+            <img src="pics/logos/google.svg" >
+            <img src="pics/logos/airbnb.svg" >
+            <img src="pics/logos/apple.svg" >
+            <img src="pics/logos/applestore.svg" >
+            <img src="pics/logos/coca-cola.svg" >
+            <img src="pics/logos/forbes.svg" >
+            <img src="pics/logos/googleplay.svg" >
+            <img src="pics/logos/microsoft.svg" >
+          </div>
+        </div>
+
+
+    </section>
+
+<!-- fourth section the companies we worked with -->
+
+    <section class="provide-section"> 
+      <div class="title-logos">
+        <h2>What we provide</h2>
+      </div>
+
+      <div class="grid">
+        <div class="grid-item">
+          <div class="card-provide">
+            <img src="pics/provide/healthcare.jpg"class="card-img">
+              <div class="card-content">
+                <h2 class="card-header">Health care</h2>
+                <p class="card-text">
+                  Providing accessible and quality <strong>healthcare</strong> is essential for promoting overall well-being and ensuring a healthier future for all individuals.                
+                </p>
+                <button class="card-btn">
+                  more <span>&rarr;</span>
+                </button>
+              </div>
+            
+          </div>
+        </div><div class="grid-item">
+          <div class="card-provide">
+            <img src="pics/provide/eduction.jpg"class="card-img">
+              <div class="card-content">
+                <h2 class="card-header">Eduction</h2>
+                <p class="card-text">
+                  <strong>Education</strong> is the key to unlocking personal growth, empowering individuals, and fostering a brighter and more equitable future for all.                
+                </p>                
+                <button class="card-btn">
+                  more <span>&rarr;</span>
+                </button>
+              </div>
+            
+          </div>
+        </div><div class="grid-item">
+          <div class="card-provide">
+            <img src="pics/provide/food.jpg"class="card-img">
+              <div class="card-content">
+                <h2 class="card-header">Food</h2>
+                <p class="card-text">
+                  <strong>Food</strong> is a fundamental human necessity that sustains and nourishes individuals, supporting health and well-being.                
+                </p>
+                <button class="card-btn">
+                  more <span>&rarr;</span>
+                </button>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- fifth section about us info  -->
+    
+    <section class="email-container">
+      <div class="title-Join">
+        <h2>Join Our team</h2>
+      </div> 
+      <div class="email-signup">
+        <form action="html/moofs.html" method="post" id="email-signup" class="">
+          <input id="email" name="email" type="email" placeholder="Gali Gmailkada..." required>
+          <button type="submit">Apply</button>
+      </div>
+      
+		
+    </form>
+     
+    </section>
+
+<!-- sixth section social media -->
+
+    <section class="information">
+      <div class="info">
+        <div>
+          <h2>Campany</h2>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+        </div>
+        <div>
+          <h2>Our-team</h2>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+        </div>
+        <div>
+          <h2>Support</h2>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+        </div>
+        <div>
+          <h2>Contact</h2>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+          <h3>Content enter</h3>
+        </div>
+      </div>
+        
+       
+      </section>
+  </main>
+  
+
+
+
+  <footer>
+    <div class="copyright"><p>&copy;Daadir.org.2023 </p></div>
+    <div class="social-media-footer">
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-snapchat"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+    </div> 
+    <button id="scrollToTopButton" onclick="scrollToTop()">&#8679;</button>
+    </footer>
+
+
+
+
+  <!-- the Java content start from here -->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script>
+
+      // The logos slider
+
+      var copy = document.querySelector(" .logos-slide").cloneNode(true);
+      document.querySelector(' .logos').appendChild(copy);
+
+      // The header
+    
+      window.addEventListener('scroll', function() {
+  var header = document.querySelector('.sticky-header');
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop > 0) {
+    header.classList.add('scrolled');
+  } else {
+    header.classList.remove('scrolled');
+  }
+});
+
+      // The swiper
+ const swiper = new Swiper('.swiper', {
+  direction: 'horizontal',
+  loop: true,
+
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
+
+
+
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+swiper.el.addEventListener('mouseenter', function () {
+  swiper.autoplay.stop();
+});
+
+
+swiper.el.addEventListener('mouseleave', function () {
+  swiper.autoplay.start();
+});
+
+
+// dark mode
+
+function toggleDarkMode() {
+  var body = document.body;
+  var icon = document.getElementById('dark-mode-icon');
+  
+  body.classList.toggle('dark-mode');
+  
+  if (body.classList.contains('dark-mode')) {
+    icon.classList.remove('fa-sun');
+    icon.classList.add('fa-moon');
+    icon.style.color = '#d7e4f9';
+  } else {
+    icon.classList.remove('fa-moon');
+    icon.classList.add('fa-sun');
+    icon.style.color = '#e1ff00';
+  }
+}
+
+// scroll javascript
+
+window.addEventListener('scroll', function() {
+  var scrollToTopButton = document.getElementById('scrollToTopButton');
+  var scrollToBottomButton = document.getElementById('scrollToBottomButton');
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  var scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  
+  if (scrollTop > 0) {
+    scrollToTopButton.style.display = 'block';
+  } else {
+    scrollToTopButton.style.display = 'none';
+  }
+  
+  if (scrollTop < scrollHeight) {
+    scrollToBottomButton.style.display = 'block';
+  } else {
+    scrollToBottomButton.style.display = 'none';
+  }
+});
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
+function scrollToBottom() {
+  window.scrollTo({
+    top: document.documentElement.scrollHeight,
+    behavior: 'smooth'
+  });
+}
+
+
+
+  </script>
+</body>
+</html>
+
+
+
+<!-- Website front end is complete -->
